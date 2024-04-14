@@ -17,7 +17,7 @@ class RandomIterator:
             raise StopIteration
 
 class DoubleElementListIterator:
-    def __int__(self, lst):
+    def __init__(self, lst):
         self.lst = lst
         self.i = 0
 
